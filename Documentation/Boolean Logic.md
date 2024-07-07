@@ -13,36 +13,36 @@ Any Boolean function can be expressed using only Nand operators.
 
 ## Boolean notation
 
-AND  x Ʌ y, x + y 
-OR   x V y, x . y
-NOT  ¬x, !x
+- AND  x Ʌ y, x + y 
+- OR   x V y, x . y
+- NOT  ¬x, !x
 
 ## Boolean algebra
 
-Commutative laws
+### Commutative laws
 
-AND x . y = y . x
-OR x + y = y + x
+- AND x . y = y . x
+- OR x + y = y + x
 
-Associative laws
+### Associative laws
 
-AND x . (y . z) = (x . y) . z
-OR x + (y + z) = (x + y) + z
+- AND x . (y . z) = (x . y) . z
+- OR x + (y + z) = (x + y) + z
 
-Distributive laws
+### Distributive laws
 
-x. (y + z) = (x . y) + (x . z)
-x + (y . z) = (x + x) . (x + z)
+- x. (y + z) = (x . y) + (x . z)
+- x + (y . z) = (x + x) . (x + z)
 
-De Morgan's laws
+### De Morgan's laws
 
-¬(x . y)=¬x + ¬y
-¬(x + y)=¬x . ¬y
+- ¬(x . y)=¬x + ¬y
+- ¬(x + y)=¬x . ¬y
 
-Indemptent laws
+### Indemptent laws
 
-x . x = x
-x + x = x
+- x . x = x
+- x + x = x
 
 These properties can be used to simplify boolean expressions. Why is it useful? Because its possible given a truth table synthesize a equivalent
 boolean expression. That can be done by using the rule of the sum of products https://www.allaboutcircuits.com/textbook/digital/chpt-7/converting-truth-tables-boolean-expressions/
