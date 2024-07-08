@@ -52,6 +52,10 @@ These properties can be used to simplify boolean expressions. Why is it useful? 
 ![A list of boolean functions](./Images/boolean_functions.png)
 
 
+## Logic gates diagrams 
+
+![Logic gates diagrams](./Images/logic_gates_symbols.png)
+
 ## Proving the theorems 
 
 ![Boolean functions from NAND](./Images/basic_gates_from_nand.png)
