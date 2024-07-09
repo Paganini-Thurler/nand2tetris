@@ -8,6 +8,7 @@
  * if (a and b) out = 1, else out = 0 
  */
 CHIP And {
+    //And input and output pins
     IN a, b;
     OUT out;
     
