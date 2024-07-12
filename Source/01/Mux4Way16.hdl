@@ -10,12 +10,13 @@
  *       c if sel == 10
  *       d if sel == 11
  */
-CHIP Mux4Way16 {
-    IN a[16], b[16], c[16], d[16], sel[2];
-    OUT out[16];
+CHIP DMux4Way {
+    IN in, sel[2];
+    OUT a, b, c, d;
     
     PARTS:
-    Mux16(a=a,b=b,sel=sel[0],out=aMuxB);
-    Mux16(a=c,b=d,sel=sel[0],out=cMuxD);
-    Mux16(a=aMuxB,b=cMuxD,sel=sel[1],out=out);
+    DMux(in=in , sel=sel[1] , a=inA , b=inB );
+    DMux(in=inA , sel=sel[0] , a=a , b=b );
+    DMux(in=inB , sel=sel[0] , a=c , b=d );
+   
 }
