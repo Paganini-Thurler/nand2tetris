@@ -191,157 +191,157 @@
     </comp>
     <comp lib="2" loc="(420,970)" name="Demultiplexer"/>
     <comp lib="2" loc="(450,730)" name="Multiplexer"/>
-    <comp lib="8" loc="(1046,1179)" name="Text">
+    <comp lib="8" loc="(1045,1175)" name="Text">
       <a name="text" val="NOT16"/>
     </comp>
-    <comp lib="8" loc="(1729,232)" name="Text">
+    <comp lib="8" loc="(1725,230)" name="Text">
       <a name="text" val="OR8WAY16"/>
     </comp>
-    <comp lib="8" loc="(1772,738)" name="Text">
+    <comp lib="8" loc="(1770,735)" name="Text">
       <a name="text" val="Mux16"/>
     </comp>
-    <comp lib="8" loc="(2233,1391)" name="Text">
+    <comp lib="8" loc="(2230,1390)" name="Text">
       <a name="text" val="sel[0]"/>
     </comp>
-    <comp lib="8" loc="(2237,1071)" name="Text">
+    <comp lib="8" loc="(2235,1070)" name="Text">
       <a name="text" val="Mux8Way16"/>
     </comp>
-    <comp lib="8" loc="(2260,2351)" name="Text">
+    <comp lib="8" loc="(2260,2350)" name="Text">
       <a name="text" val="sel[2]"/>
     </comp>
-    <comp lib="8" loc="(2281,989)" name="Text">
+    <comp lib="8" loc="(2280,985)" name="Text">
       <a name="text" val="sel[0]"/>
     </comp>
-    <comp lib="8" loc="(2298,2031)" name="Text">
+    <comp lib="8" loc="(2295,2030)" name="Text">
       <a name="text" val="sel[1]"/>
     </comp>
-    <comp lib="8" loc="(2307,789)" name="Text">
+    <comp lib="8" loc="(2305,785)" name="Text">
       <a name="text" val="MUX4WAY16"/>
     </comp>
-    <comp lib="8" loc="(2335,1359)" name="Text">
+    <comp lib="8" loc="(2335,1355)" name="Text">
       <a name="text" val="sel[1]"/>
     </comp>
-    <comp lib="8" loc="(2357,990)" name="Text">
+    <comp lib="8" loc="(2355,990)" name="Text">
       <a name="text" val="sel[1]"/>
     </comp>
-    <comp lib="8" loc="(2384,2417)" name="Text">
+    <comp lib="8" loc="(2380,2415)" name="Text">
       <a name="text" val="sel[1]"/>
     </comp>
-    <comp lib="8" loc="(2415,1339)" name="Text">
+    <comp lib="8" loc="(2415,1335)" name="Text">
       <a name="text" val="sel[2]"/>
     </comp>
-    <comp lib="8" loc="(2423,2083)" name="Text">
+    <comp lib="8" loc="(2420,2080)" name="Text">
       <a name="text" val="sel[0]"/>
     </comp>
-    <comp lib="8" loc="(2476,2447)" name="Text">
+    <comp lib="8" loc="(2475,2445)" name="Text">
       <a name="text" val="sel[0]"/>
     </comp>
-    <comp lib="8" loc="(2591,1669)" name="Text">
+    <comp lib="8" loc="(2590,1665)" name="Text">
       <a name="text" val="sel[0]"/>
     </comp>
-    <comp lib="8" loc="(294,1292)" name="Text">
+    <comp lib="8" loc="(290,1290)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(294,1432)" name="Text">
+    <comp lib="8" loc="(290,1430)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(294,1572)" name="Text">
+    <comp lib="8" loc="(290,1570)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(294,1712)" name="Text">
+    <comp lib="8" loc="(290,1710)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(294,1852)" name="Text">
+    <comp lib="8" loc="(290,1850)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(294,1992)" name="Text">
+    <comp lib="8" loc="(290,1990)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(294,2132)" name="Text">
+    <comp lib="8" loc="(290,2130)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(294,2272)" name="Text">
+    <comp lib="8" loc="(290,2270)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(295,1223)" name="Text">
+    <comp lib="8" loc="(295,1220)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(295,1363)" name="Text">
+    <comp lib="8" loc="(295,1265)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1335)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1360)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(295,1503)" name="Text">
+    <comp lib="8" loc="(295,1405)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1475)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1500)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(295,1643)" name="Text">
+    <comp lib="8" loc="(295,1545)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1615)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1640)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(295,1783)" name="Text">
+    <comp lib="8" loc="(295,1685)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1755)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1780)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(295,1923)" name="Text">
+    <comp lib="8" loc="(295,1825)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1895)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,1920)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(295,2063)" name="Text">
+    <comp lib="8" loc="(295,1965)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,2035)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,2060)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(295,2203)" name="Text">
+    <comp lib="8" loc="(295,2105)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,2175)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(295,2200)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(296,1265)" name="Text">
+    <comp lib="8" loc="(295,2245)" name="Text">
       <a name="text" val="b"/>
     </comp>
-    <comp lib="8" loc="(296,1335)" name="Text">
+    <comp lib="8" loc="(295,2315)" name="Text">
       <a name="text" val="b"/>
     </comp>
-    <comp lib="8" loc="(296,1405)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,1475)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,1545)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,1615)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,1685)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,1755)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,1825)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,1895)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,1965)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,2035)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,2105)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,2175)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,2245)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(296,2315)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(351,1193)" name="Text">
+    <comp lib="8" loc="(350,1190)" name="Text">
       <a name="text" val="AND16"/>
     </comp>
     <comp lib="8" loc="(380,240)" name="Text">
       <a name="text" val="in"/>
     </comp>
-    <comp lib="8" loc="(384,972)" name="Text">
+    <comp lib="8" loc="(380,970)" name="Text">
       <a name="text" val="in"/>
     </comp>
     <comp lib="8" loc="(385,320)" name="Text">
@@ -356,53 +356,53 @@
     <comp lib="8" loc="(385,460)" name="Text">
       <a name="text" val="b"/>
     </comp>
-    <comp lib="8" loc="(385,562)" name="Text">
+    <comp lib="8" loc="(385,560)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(385,602)" name="Text">
+    <comp lib="8" loc="(385,600)" name="Text">
       <a name="text" val="b"/>
     </comp>
-    <comp lib="8" loc="(388,721)" name="Text">
+    <comp lib="8" loc="(385,720)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(388,741)" name="Text">
+    <comp lib="8" loc="(385,740)" name="Text">
       <a name="text" val="b"/>
     </comp>
     <comp lib="8" loc="(425,405)" name="Text">
       <a name="text" val="OR"/>
     </comp>
+    <comp lib="8" loc="(430,1010)" name="Text">
+      <a name="text" val="sel"/>
+    </comp>
     <comp lib="8" loc="(430,300)" name="Text">
       <a name="text" val="AND"/>
     </comp>
-    <comp lib="8" loc="(431,1012)" name="Text">
-      <a name="text" val="sel"/>
-    </comp>
-    <comp lib="8" loc="(434,544)" name="Text">
+    <comp lib="8" loc="(430,540)" name="Text">
       <a name="text" val="XOR"/>
     </comp>
     <comp lib="8" loc="(435,220)" name="Text">
       <a name="text" val="NOT"/>
     </comp>
-    <comp lib="8" loc="(436,792)" name="Text">
+    <comp lib="8" loc="(435,790)" name="Text">
       <a name="text" val="sel"/>
     </comp>
-    <comp lib="8" loc="(486,965)" name="Text">
+    <comp lib="8" loc="(485,730)" name="Text">
+      <a name="text" val="out"/>
+    </comp>
+    <comp lib="8" loc="(485,965)" name="Text">
       <a name="text" val="a"/>
     </comp>
-    <comp lib="8" loc="(486,985)" name="Text">
+    <comp lib="8" loc="(485,985)" name="Text">
       <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(486,985)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(486,985)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(488,730)" name="Text">
-      <a name="text" val="out"/>
     </comp>
     <comp lib="8" loc="(495,240)" name="Text">
       <a name="text" val="out"/>
+    </comp>
+    <comp lib="8" loc="(495,995)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(505,1005)" name="Text">
+      <a name="text" val="b"/>
     </comp>
     <comp lib="8" loc="(510,340)" name="Text">
       <a name="text" val="out"/>
@@ -410,17 +410,113 @@
     <comp lib="8" loc="(510,440)" name="Text">
       <a name="text" val="out"/>
     </comp>
-    <comp lib="8" loc="(521,584)" name="Text">
+    <comp lib="8" loc="(520,580)" name="Text">
       <a name="text" val="out"/>
     </comp>
-    <comp lib="8" loc="(556,1012)" name="Text">
+    <comp lib="8" loc="(555,1010)" name="Text">
       <a name="text" val="in"/>
     </comp>
     <comp lib="8" loc="(595,240)" name="Text">
       <a name="text" val="in"/>
     </comp>
-    <comp lib="8" loc="(603,692)" name="Text">
+    <comp lib="8" loc="(600,690)" name="Text">
       <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1220)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1265)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1290)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1335)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1360)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1405)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1430)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1475)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1500)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1545)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1570)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1615)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1640)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1685)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1710)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1755)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1780)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1825)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1850)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1895)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1920)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,1965)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,1990)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,2035)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,2060)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,2105)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,2130)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,2175)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,2200)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,2245)" name="Text">
+      <a name="text" val="b"/>
+    </comp>
+    <comp lib="8" loc="(605,2270)" name="Text">
+      <a name="text" val="a"/>
+    </comp>
+    <comp lib="8" loc="(605,2315)" name="Text">
+      <a name="text" val="b"/>
     </comp>
     <comp lib="8" loc="(605,320)" name="Text">
       <a name="text" val="a"/>
@@ -434,112 +530,16 @@
     <comp lib="8" loc="(605,450)" name="Text">
       <a name="text" val="b"/>
     </comp>
-    <comp lib="8" loc="(606,1223)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1266)" name="Text">
+    <comp lib="8" loc="(605,770)" name="Text">
       <a name="text" val="b"/>
     </comp>
-    <comp lib="8" loc="(606,1293)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1336)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1363)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1406)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1433)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1476)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1503)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1546)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1573)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1616)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1643)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1686)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1713)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1756)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1783)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1826)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1853)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1896)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1923)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,1966)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,1993)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,2036)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,2063)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,2106)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,2133)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,2176)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,2203)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,2246)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(606,2273)" name="Text">
-      <a name="text" val="a"/>
-    </comp>
-    <comp lib="8" loc="(606,2316)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(607,771)" name="Text">
-      <a name="text" val="b"/>
-    </comp>
-    <comp lib="8" loc="(636,1120)" name="Text">
+    <comp lib="8" loc="(635,1120)" name="Text">
       <a name="text" val="sel"/>
     </comp>
-    <comp lib="8" loc="(644,868)" name="Text">
+    <comp lib="8" loc="(640,865)" name="Text">
       <a name="text" val="sel"/>
     </comp>
-    <comp lib="8" loc="(654,1199)" name="Text">
+    <comp lib="8" loc="(650,1195)" name="Text">
       <a name="text" val="OR16"/>
     </comp>
     <comp lib="8" loc="(750,240)" name="Text">
@@ -548,16 +548,16 @@
     <comp lib="8" loc="(800,430)" name="Text">
       <a name="text" val="out"/>
     </comp>
-    <comp lib="8" loc="(806,1032)" name="Text">
+    <comp lib="8" loc="(805,1030)" name="Text">
       <a name="text" val="b"/>
     </comp>
-    <comp lib="8" loc="(807,951)" name="Text">
+    <comp lib="8" loc="(805,950)" name="Text">
       <a name="text" val="a"/>
     </comp>
     <comp lib="8" loc="(860,340)" name="Text">
       <a name="text" val="out"/>
     </comp>
-    <comp lib="8" loc="(883,754)" name="Text">
+    <comp lib="8" loc="(880,750)" name="Text">
       <a name="text" val="out"/>
     </comp>
     <wire from="(1000,1200)" to="(1020,1200)"/>

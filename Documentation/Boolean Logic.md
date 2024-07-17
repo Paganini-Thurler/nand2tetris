@@ -123,3 +123,27 @@ Expression simplified: AC′=BC
 2º (SELB)
 
 The demultiplexer taught an important lesson. It can be constructed from the truth table, as the other components, but it should be viewed as independent parts, not summed together as the multiplexer was. 
+
+## 2's Complement
+
+In order to represent positive and negative numbers, Jhon von Neuman suggested the use of binary complements, the leftmost bit is called the sign bit, if it is equal to 1, it means that is a negative number. By using the 2's complement it's possib  carry additions and subtractions, with the same logic circuit, reducing the computer's archicteture complexity. Look the binary numbers bellow they are 4 and -4.
+
+00000100 : Positive number
+11111100 : Negative number 
+
+The ideia of complemente is that if a number and its complement are added together, the result must be zero. 
+
+-4+4 = 0
+
+### 2's complement algorithm 
+
+To find the binary complement of a number invert the bits and add +1 to the result.
+
+01010 = 10
+
+10101 : Invert
+
+10101
++   1 : +1
+-----
+10110 : -10 
