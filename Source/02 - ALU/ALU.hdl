@@ -45,5 +45,16 @@ CHIP ALU {
     Inc16(in=negateX , out=xComplement);
     Add16(a =x, b=xComplement , out = xZero );
     Mux16(a=x , b=xZero , sel=zx , out=zeroX );
+
+    Not16(in=x , out=notx);
+    Mux16(a=x , b= notx , sel=nx , out=notX );
+
+    Not16(in=y, out= negateY);
+    Inc16(in=negateY , out=yComplement);
+    Add16(a =y, b=yComplement , out = yZero );
+    Mux16(a=y , b=yZero , sel=zy , out=zeroY );
+
+    Not16(in=y , out=noty);
+    Mux16(a=y , b= noty , sel=ny , out=notY);
     
 }
