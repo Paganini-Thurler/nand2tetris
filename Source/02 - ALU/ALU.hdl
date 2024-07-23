@@ -60,13 +60,20 @@ CHIP ALU {
     Not16(in=zeroY , out=noty);
     Mux16(a=y , b= noty , sel=ny , out=notY);
     //x+y x.y
-
     Add16(a=notX, b=notY ,out=xOrB);
     And16(a=notX, b=notY, out=xAndB);
-    Mux16(a= xAndB, b=xOrB, sel=f, out=xANDORy);
+    Mux16(a= xAndB, b=xOrB, sel=f, out=xAndOry);
     //no
-    Not16(in=xANDORy , out= notxANDORy);
-    Mux16(a=xANDORy , b=notxANDORy , sel=no , out=out);
-
+    Not16(in=xAndOry , out= notxAndOry);
+    Mux16(a=xAndOry , b=notxAndOry , sel=no , out=out, out[15]=negative, out[0..7]=low8,out[8..15]=high8);
+    
+    //Flags
+    //zr
+    Or8Way(in=low8, out=zra );
+    Or8Way(in=high8, out=zrb );
+    Or(a= zra, b=zra , out=zrc );
+    Not(in=zrc , out=zr );
+    //ng
+    And(a=negative, b=true , out=ng);
 
 }
