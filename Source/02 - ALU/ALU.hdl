@@ -1,7 +1,3 @@
-// This file is part of www.nand2tetris.org
-// and the book "The Elements of Computing Systems"
-// by Nisan and Schocken, MIT Press.
-// File name: projects/2/ALU.hdl
 /**
  * ALU (Arithmetic Logic Unit):
  * Computes out = one of the following functions:
@@ -43,36 +39,49 @@ CHIP ALU {
     PARTS:
 
     //zx
+    
     //We implemented in hardware the 2's
     Not16(in=x, out= negateX);
     Inc16(in=negateX , out=xComplement);
     Add16(a =x, b=xComplement , out = xZero );
     Mux16(a=x , b=xZero , sel=zx , out=zeroX );
+    
     //nx
     Not16(in=zeroX , out=notx);
     Mux16(a=x , b= notx , sel=nx , out=notX );
+    
     //zy
     Not16(in=y, out= negateY);
     Inc16(in=negateY , out=yComplement);
     Add16(a =y, b=yComplement , out = yZero );
     Mux16(a=y , b=yZero , sel=zy , out=zeroY );
+    
     //ny
     Not16(in=zeroY , out=noty);
     Mux16(a=y , b= noty , sel=ny , out=notY);
+    
     //x+y x.y
     Add16(a=notX, b=notY ,out=xOrB);
     And16(a=notX, b=notY, out=xAndB);
     Mux16(a= xAndB, b=xOrB, sel=f, out=xAndOry);
+    
     //no
     Not16(in=xAndOry , out= notxAndOry);
-    Mux16(a=xAndOry , b=notxAndOry , sel=no , out=out, out[15]=negative, out[0..7]=low8,out[8..15]=high8);
+    
+    Mux16(
+        a=xAndOry , b=notxAndOry , 
+        sel=no , out=out, out[15]=negative, 
+        out[0..7]=low8,out[8..15]=high8
+    );
     
     //Flags
+
     //zr
     Or8Way(in=low8, out=zra );
     Or8Way(in=high8, out=zrb );
     Or(a= zra, b=zra , out=zrc );
     Not(in=zrc , out=zr );
+    
     //ng
     And(a=negative, b=true , out=ng);
 
